@@ -1,7 +1,7 @@
 # Instalar distintas versiones de Angular CLI
 ---
 
-Debido a un requirimiento de trabajar en un proyecto con una versión en especifico de Angular, es que se decidio mantener la versión recientemente instalada(10) y ademas trabajar con Angular 7. A continuación se detallan los pasos para mantener ambas versiones:
+Debido al requirimiento de trabajar en un proyecto con una versión en especifico de Angular, es que se decidio mantener la versión recientemente instalada(10) y ademas trabajar con Angular 7. A continuación se detallan los pasos para mantener ambas versiones:
 
 - **1° - Instalar CLI 10 globalmente :**
 
@@ -48,6 +48,4 @@ Si aún así hubieran problemas, podemos asegurarnos que se ejecute el comando e
         "start": "./node-modules/.bin/ng serve",
 ```
 
-Para las pruebas de esta guía se uso la primera opción, despues de eso paramos el `localhost`: `ctrl` + `C` y se volvio a ejecutar el comando `ng serve` o `npm start`, funcionando en ambos casos.
-
-<!-- serverless config credentials --provider aws --key AKIAXRRJRY4L6HWIPVVR --secret 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 -->
+Para las pruebas de esta guía se uso la primera opción, despues se detuvo el `localhost`(`ctrl` + `C`) y se volvio a ejecutar el comando `ng serve` o `npm start`, funcionando en ambos casos.
