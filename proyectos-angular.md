@@ -355,3 +355,5 @@ Para el desarrollo del siguiente proyecto, desde el diseño, la línea gráfica 
 #### Barra Lateral de Navegación - [Angular Material sidenav](https://material.angular.io/components/sidenav/api)
 
 Empezamos por importar el component 
+
+#### [mydatepicker](https://www.npmjs.com/package/mydatepicker)
