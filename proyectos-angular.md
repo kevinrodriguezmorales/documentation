@@ -348,6 +348,8 @@ ERROR Error: Uncaught (in promise): Error: BrowserModule has already been loaded
 
 Los pasos de instalación fueron tomados de [Adding Owl Carousel in Angular 7/8/9](https://medium.com/@shreyakaushik11/adding-owl-carousel-in-angular-7-8-9-67f401665ee2) y de otras fuentes en internet así como las soluciones a los problemas que se fueron presentando, para conocer más información sobre este paquete: eventos, métodos, compatibilidad, etc. visitar [ngx-búho-carrusel-o](https://www.npmjs.com/package/ngx-owl-carousel-o).
 
+### Contentful [Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/using-contentful-in-an-angular-project/)
+
 ### Componentes
 
 Para el desarrollo del siguiente proyecto, desde el diseño, la línea gráfica fue basada en la documentación de [Material Design](https://material.io/), por lo que muchos componentes se basan en la anatomía de los construidos en [Angular Material](). Las siguientes secciones describen de manera breve la importación, configuración y despliegue de algunos componentes Angular.
