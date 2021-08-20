@@ -198,6 +198,27 @@ Al instalar Material en nuestro proyecto se establecieron las siguientes opcione
     # √ Packages installed successfully.
 ```
 
+### Dialog(cuadro de dialogo)
+
+Para usar el Dialog de Material basta con importar ` import {MatDialogModule} from '@angular/material/dialog'; ` y declarar en las importaciones en el módulo principal. También sera necesario crear un componente que será proyectado en el Dialog, por lo que también será necesario declararlo en `entryComponents` dicho componente. Para el caso de Lazy Modules va ser necesario que tambien se importe MatDialogModule, esto si estuvieramos importandolo en un modulo por separado(en MaterialAngularModule por ejemplo).
+
+```typescript
+    @NgModule({
+        imports: [
+            MatDialogModule
+        ],
+        declarations: [
+            AppComponent,
+            LoginComponent,
+            DashboardComponent,
+            HomeComponent,
+            DialogResultExampleDialog        
+        ],
+        entryComponents: [
+            DialogResultExampleDialog
+        ]
+```
+
 #### Bootstrap
 
 Instalamos el paquete de Bootstrap usando `npm`
