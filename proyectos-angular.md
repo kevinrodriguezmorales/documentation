@@ -371,6 +371,14 @@ Los pasos de instalación fueron tomados de [Adding Owl Carousel in Angular 7/8/
 
 ### Contentful [Contentful](https://www.contentful.com/developers/docs/javascript/tutorials/using-contentful-in-an-angular-project/)
 
+```cmd
+    $ npm i --save contentful
+```
+
+```ts
+    import { createClient, Entry } from 'contentful';
+```
+
 ### Componentes
 
 Para el desarrollo del siguiente proyecto, desde el diseño, la línea gráfica fue basada en la documentación de [Material Design](https://material.io/), por lo que muchos componentes se basan en la anatomía de los construidos en [Angular Material](). Las siguientes secciones describen de manera breve la importación, configuración y despliegue de algunos componentes Angular.
